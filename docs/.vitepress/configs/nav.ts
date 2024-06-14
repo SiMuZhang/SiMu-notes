@@ -24,7 +24,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: '四木', link: '/about/simu' },
       {
         text: 'CSDN',
-        link: 'https://blog.csdn.net/weixin_45271300?type=blog'
+        link: 'https://blog.csdn.net/weixin_45271300'
       },
     ]
   }

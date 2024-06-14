@@ -55,10 +55,24 @@ i 标记用于指定文本斜体的外观效果，通常只是为了强调关键
 
 ## HTML5 有哪些新特性？
 
-- 新增语义化标签：nav、header、footer、aside、section、article
-- 音频、视频标签：audio、video
-- 数据存储：localStorage、sessionStorage
-- canvas（画布）、Geolocation（地理定位）、websocket（通信协议）
-- input 标签新增属性：placeholder、autocomplete、autofocus、required
-- history API
+- **新增语义化标签**：nav、header、footer、aside、section、article
+- **音频、视频标签**：audio、video
+- **数据存储**：localStorage、sessionStorage
+- `canvas（画布）`、`Geolocation（地理定位）`、`websocket（通信协议）`
+- **input 标签新增属性**：placeholder、autocomplete、autofocus、required
+- **history API**
   - go、forward、back、pushstate
+
+## HTML 的元素嵌套规则
+
+HTML 元素嵌套规则是指 HTML 标签在嵌套时的合法性，即标签嵌套的顺序和层级
+
+::: tip HTML 元素的嵌套合法性
+
+HTML 元素嵌套是否合法由标签的语义决定，即标签的语义决定了标签的嵌套规则
+
+举个 🌰
+
+在 `<h1>` 中不能再嵌套 `<p>`，因为 `<p>` 是一个段落，而 `<h1>` 是一个标题，段落不能嵌套在标题中
+
+:::

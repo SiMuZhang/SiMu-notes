@@ -11,7 +11,7 @@ hero:
     alt: 四木的小屋
   actions:
     - text: 前端物语
-      link: /front/es6/
+      link: /front/html/
     - text: 前端导航
       link: /nav/
       theme: alt
@@ -19,7 +19,7 @@ features:
   - icon: 📖
     title: 前端知识
     details: 整理前端常用知识点<small>（面试八股文）</small><br />
-    link: /front/es6/
+    link: /front/html/
     linkText: 前端常用知识
   - icon: 🛠️
     title: 常用前端工具

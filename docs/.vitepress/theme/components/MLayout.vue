@@ -8,6 +8,7 @@ import { usePageId } from '../composables'
 
 import MNavVisitor from './MNavVisitor.vue'
 import MDocFooter from './MDocFooter.vue'
+import MAsideSponsors from './MAsideSponsors.vue'
 
 const { Layout } = DefaultTheme
 const { isDark, theme, frontmatter } = useData()
@@ -59,6 +60,10 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
     -->
     <template #nav-bar-title-after>
       <MNavVisitor />
+    </template>
+
+    <template #aside-bottom>
+      <MAsideSponsors />
     </template>
 
     <template v-if="comment && frontmatter.comment !== false" #doc-footer-before>

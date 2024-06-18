@@ -29,6 +29,7 @@
 - 提效工具
   - 记录开发和日常使用中所用到的软件、插件、扩展等
 
-说明：博客模板来源于茂茂大佬：
-<https://github.com/maomao1996/vitepress-nav-template>
-茂神博客：<https://notes.fe-mm.com/>
+说明：
+
+- 博客模板来源于茂茂大佬：<https://github.com/maomao1996/vitepress-nav-template>
+- 茂神博客：<https://notes.fe-mm.com/>
